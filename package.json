@@ -5,6 +5,7 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "windows": "react-native run-windows",
     "start": "react-native start",
     "pretest": "npm run lint && npm run typecheck",
     "test": "jest",
@@ -13,7 +14,8 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "^0.62.0-0",
+    "react-native-windows": "^0.62.0-0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
