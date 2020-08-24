@@ -29,9 +29,9 @@ build/
 local.properties
 *.iml
 
-# Visual Studio Code
+# Windows
 #
-.vscode/
+msbuild.binlog
 
 # node.js
 #
