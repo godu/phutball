@@ -1,41 +1,9 @@
-```
-               ######                ######
-             ###     ####        ####     ###
-            ##          ###    ###          ##
-            ##             ####             ##
-            ##             ####             ##
-            ##           ##    ##           ##
-            ##         ###      ###         ##
-             ##  ########################  ##
-          ######    ###            ###    ######
-      ###     ##    ##              ##    ##     ###      
-   ###         ## ###      ####      ### ##         ###   
-  ##           ####      ########      ####           ##  
- ##             ###     ##########     ###             ## 
-  ##           ####      ########      ####           ##  
-   ###         ## ###      ####      ### ##         ###   
-      ###     ##    ##              ##    ##     ###      
-          ######    ###            ###    ######
-             ##  ########################  ##
-            ##         ###      ###         ##
-            ##           ##    ##           ##
-            ##             ####             ##
-            ##             ####             ##
-            ##          ###    ###          ##
-             ###     ####        ####     ###
-               ######                ######
+# Getting started
 
+## iOS
 
-                  Welcome to React Native!
-                 Learn once, write anywhere
-```
+### Run instructions for iOS:
 
-√ Downloading template
-√ Copying template
-√ Processing template
-√ Installing dependencies
-
-Run instructions for iOS:
 - `npm run ios`
 
 --- or ---
@@ -43,11 +11,23 @@ Run instructions for iOS:
 - Open `ios\phutball.xcodeproj` in Xcode or run `xed -b ios`
 - Hit the Run button
 
-Run instructions for Android:
+## Android
+
+### Run instructions for Android:
+
 - Have an Android emulator running (quickest way to get started), or a device connected.
 - `npm run android`
 
-Run instructions for Windows and macOS:
+## Windows 
+
+### Install all dependencies 
+
+```powershell
+Start-Process -Verb RunAs powershell -ArgumentList @("-command", "iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/microsoft/react-native-windows/master/vnext/Scripts/rnw-dependencies.ps1'))")
+```
+
+### Run instructions for Windows and macOS:
+
 - `npm run windows`
 
 --- or ---
