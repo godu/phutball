@@ -2,6 +2,11 @@
 
 ## iOS
 
+### Install all dependencies
+
+- Install [CocoaPods](https://cocoapods.org/) `sudo gem install cocoapods`
+- And install ios dependencies `cd ios && pod install`
+
 ### Run instructions for iOS:
 
 - `npm run ios`
@@ -33,9 +38,6 @@ Start-Process -Verb RunAs powershell -ArgumentList @("-command", "iex ((New-Obje
 --- or ---
 
 - Open `windows\phutball.sln` in Visual Studio and press `F5`
-
---- or ---
-
 
 ## Troubleshooting
 
